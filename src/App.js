@@ -773,10 +773,6 @@ const App = () => {
                     if (isCurrentlyHighlighted) {
                         highlightClass = isGuessCorrect ? 'highlight-green' : 'highlight-red';
                     }
-                    // For info message, we want to highlight the correct one
-                    else if (currentElement && element.atomicNumber === currentElement.atomicNumber && messageType === 'info') {
-                        highlightClass = 'highlight-blue';
-                    }
 
 
                     return (
