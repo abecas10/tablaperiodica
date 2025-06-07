@@ -687,7 +687,7 @@ const App = () => {
             </style>
 
             <h1 className="title">
-                Periodic Table Quiz!
+                Periodic Table
             </h1>
 
             {/* Scoreboard and current question display */}
